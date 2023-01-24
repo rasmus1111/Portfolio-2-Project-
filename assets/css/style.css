@@ -1,0 +1,73 @@
+
+/*style page*/
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+   
+}
+
+/* style header */
+header {
+    background-color: #3657a4; 
+    color: white;
+    padding: 20px;
+    
+  
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 45px;
+
+    
+}
+
+/* style game quistain */
+#game-questains {
+    color: #0077be; 
+    padding: 20px;
+}
+
+#game-questains span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+  /* style buttons */
+#choose-answer button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 20px 40px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #3657a4;
+    color: white;
+}
+
+#choose-answer button:hover{
+    background-color: rgb(105, 220, 238);
+    color: black;
+    
+}
+    /* style result area */
+
+.results{
+    font-size: 30px;
+
+}   
+#right-answer-score{
+    color: green;
+    font-size: 40px;
+    font-weight: bolder;
+}
+#wrong-answer-score{
+    color: red;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+    
+
