@@ -4,8 +4,7 @@ body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     background-color: #f4f4f4;
-    /* background-color: #00f; */
-
+   
 }
 
 /* style header */
@@ -55,6 +54,13 @@ button:hover{
     /* style result area */
 #button-area > button {
     margin-top: 40px;
+}
+
+#button-area{
+    padding-top: 100px;
+}
+.main {
+    padding-top: 100px;
 }
 
 .results{
