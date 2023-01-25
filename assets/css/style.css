@@ -1,11 +1,8 @@
-
 /*style page*/
 body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     background-color: #f4f4f4;
-    /* background-color: #00f; */
-
 }
 
 /* style header */
@@ -13,8 +10,6 @@ header {
     background-color: #3657a4; 
     color: white;
     padding: 20px;
-    
-  
 }
 
 header h1 {
@@ -22,12 +17,22 @@ header h1 {
     text-transform: uppercase;
     font-size: 45px;
 
-    
+}
+h3{
+    font-size: 35px;
+    color: #284996;
+    font-weight: bolder;
+}
+
+.content{
+    font-size: 25px;
+    color: #284996;
+    font-weight: bolder;
 }
 
 /* style game quistain */
 #game-questains {
-    color: #0077be; 
+    color: #3657a4; 
     padding: 20px;
 }
 
@@ -35,7 +40,20 @@ header h1 {
     font-size: 40px;
     font-weight: bold;
 }
+ 
+#victory-message{
+    font-size: 30px;
+    color: green;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
 
+#loss-message{
+    font-size: 30px;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
   /* style buttons */
 button {
     font-family: 'Roboto', sans-serif;
@@ -46,13 +64,23 @@ button {
     background-color: #3657a4;
     color: white;
 }
+.play-button{
+    font-size: 60px;
+    text-transform: uppercase;
+
+
+}
+.home-button{
+    font-size: 20px;
+    padding: 10px 20px;
+}
 
 button:hover{
     background-color: rgb(105, 220, 238);
     color: black;
     
 }
-    /* style result area */
+/* style result area */
 #button-area > button {
     margin-top: 40px;
 }
@@ -61,6 +89,7 @@ button:hover{
     font-size: 30px;
 
 }   
+/* style score */
 #right-answer-score{
     color: green;
     font-size: 40px;
